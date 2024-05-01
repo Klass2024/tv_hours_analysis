@@ -1,12 +1,15 @@
-library(tidyversE)
+library(tidyverse)
 library(here)
-<<<<<<< Updated upstream
+
 tv_hours_tabulation <-  gss_cat %>%
+=======
+tv_hours_tab <-  gss_cat %>%
+
   filter(age >=30 %>%)
 =======
 tv_hours_table <-  gss_cat %>%
   filter(age >=30) %>%
->>>>>>> Stashed changes
+
   group_by(marital) %>% 
   summarise(mean_tv_hours=mean(tvhours,na.rm=T))
 
