@@ -1,4 +1,4 @@
-library(tidyverse)
+library(tidyversE)
 library(here)
 tv_hours_tabulation <-  gss_cat %>%
   filter(age >=30 %>%)
